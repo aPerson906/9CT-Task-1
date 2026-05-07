@@ -15,13 +15,9 @@ The system should be able to load certain file types and handle errors in file l
 
 The User interface should be able to allow the user to access the information and be user friendly. The README document should be able to explain how the system works, if the user is confused. 
 
-Reliability: What is required from the system when providing information to the user on errors and ensuring data integrity?
+The system needs to be able to loop back to the previous page if there is an error
 
 ### Use Case
-Now we need to a develop a use-case to outline how a user might access information from the system. Remember that the user will need to be able to access the program via a user interface (text-based is fine) to look at the data itself, any visualisations and perhaps even update data depending on the system.
-
-Here is an example of how this might look - keep in mind you will need to tailor this to your system and be more specific. 
-
 Actor: User
 
 Goal: To access and interact with existing data through the program’s user interface.
@@ -52,16 +48,10 @@ Any valid updates are saved by the system.
 Data remains available for further queries or analysis.
 
 
-Data Reporting: What output should the system include, and do we need to store the final dataset somewhere (e.g. .csv or .txt file)?
-
-
-
 ## Research and Planning
 
 ### Research
-I interviewed a fellow peer and he stated that he plays 4 hours and 40 minutes a week on average
-Another peer stated that he plays 84 hours a week -
-(a week has 168 hours)
+
 
 ### Discussion
 
