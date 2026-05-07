@@ -3,20 +3,17 @@
 ## Identifying and Defining
 
 ### Mind map
+Draw a three-tiered mind map of data you could collect to investigate either from a publicly available dataset, or your own primary research (if looking at school community). On the 2nd tier put the wicked problems, on the 3rd tier get more specific on each problem.
 
 ### Hypothesis 
-The more time a student spends gaming on average week, affects their math and english grades negatively - in year 9.
+The more time a student spends gaming on average week, has a correlation english grades negatively - in year 9.
 
 ### Functional requirements
 The system should be able to load certain file types and handle errors in file loading, it'd need to handle missing values and allow for filtering/sorting/grouping data. The system would need to allow for median and mode. The data will be visualised with a bar graph, using Matplotlib. The x-axis being how many hours gaming, the y-axis being their overall grade. The system will include a .txt file.
 
 ### Non-functional requirements
 
-Typically non-functional requirements would focus on performance, usability, reliability, scalability and security. However, for this task we are going to focus on usability and reliability, as the performance and scalability will not vary much due to only working with one or two datasets and security was a bit much to cram into the short time we have to complete the task. You are of course welcome to add a security layer (e.g. username + password) to your UI if you feel it's appropriate, and if you have time.
-
-For now, focus on the following:
-
-Usability: What is required from the User Interface and a 'README' document?
+The User interface should be able to allow the user to access the information and be user friendly. The README document should be able to explain how the system works, if the user is confused. 
 
 Reliability: What is required from the system when providing information to the user on errors and ensuring data integrity?
 
