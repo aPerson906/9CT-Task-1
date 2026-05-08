@@ -1,7 +1,7 @@
 
 def main_menu():
     while True:
-        print("=== Data Viewer Interface ===")
+        print("\n=== Data Viewer Interface ===")
         print("1. View dataset")
         print("2. View visualisation")
         print("3. Search or filter data")
