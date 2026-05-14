@@ -5,10 +5,10 @@ from data_module import (
       search_data,
       update_data_entry,
       save_changes
-  )
+    )
   
   
-  def main_menu():
+def main_menu():
       while True:
           print("\n=== Data Viewer Interface ===")
           print("1. View dataset")
@@ -44,5 +44,5 @@ from data_module import (
               print("Invalid selection. Please choose a number between 1 and 6.")
   
   
-  if __name__ == "__main__":
-      main_menu()
+if __name__ == "__main__":
+    main_menu()
