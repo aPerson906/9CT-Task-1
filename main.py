@@ -8,18 +8,35 @@ from data_module import (
 )
 
 
+import time
+
+def typewrite(text): 
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.015)
+    print()
+
+
+typewrite("╔══════════════════════════════════════════════╗")
+typewrite("║ Welcome to English improvements                      ")
+typewrite("║                                                ")
+typewrite("║                                                ")
+typewrite("║                                                    ")
+
 def main_menu():
 
     while True:
 
-        print("\n=== Data Viewer Interface ===")
-        print("1. View dataset")
-        print("2. View visualisation")
-        print("3. Search or filter data")
-        print("4. Update a data entry")
-        print("5. Save changes")
-        print("6. Exit")
-
+        typewrite("╔═════════════════════════════════════╗")
+        typewrite("║    Data Viewer Interface            ║")
+        typewrite("║                                     ║")
+        typewrite("║   1. View dataset                   ║")
+        typewrite("║   2. View visualisation             ║")
+        typewrite("║   3. Search or filter data          ║")
+        typewrite("║   4. Update a data entry            ║")
+        typewrite("║   5. Save changes                   ║")
+        typewrite("║   6. Exit                           ║")
+        typewrite("╚═════════════════════════════════════╝")
         choice = input("Select an option (1-6): ").strip()
 
         if choice == '1':
