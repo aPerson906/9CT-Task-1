@@ -16,27 +16,29 @@ def typewrite(text):
         time.sleep(0.015)
     print()
 
+name = input('Hello user, please enter your name: ')
 
-typewrite("╔══════════════════════════════════════════════╗")
-typewrite("║ Welcome to English improvements                      ")
-typewrite("║                                                ")
-typewrite("║                                                ")
-typewrite("║                                                    ")
+typewrite("╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════╗")
+typewrite("║  Welcome " + name + " to English performance data                                                             ║")
+typewrite("║  Look through various datasets and visualisations to gain insights into the performance of English students.  ║")      
+typewrite("║  And how gaming impacts their performance.                                                                    ║")                                         
+typewrite("║                                                                                                               ║")
+typewrite("╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════╝")
 
 def main_menu():
 
     while True:
 
-        typewrite("╔═════════════════════════════════════╗")
-        typewrite("║    Data Viewer Interface            ║")
-        typewrite("║                                     ║")
-        typewrite("║   1. View dataset                   ║")
-        typewrite("║   2. View visualisation             ║")
-        typewrite("║   3. Search or filter data          ║")
-        typewrite("║   4. Update a data entry            ║")
-        typewrite("║   5. Save changes                   ║")
-        typewrite("║   6. Exit                           ║")
-        typewrite("╚═════════════════════════════════════╝")
+        typewrite("╔═══════════════════════════════════════╗")
+        typewrite("║    Data Viewer Interface              ║")
+        typewrite("║                                       ║")
+        typewrite("║   1. View dataset                     ║")
+        typewrite("║   2. View visualisation               ║")
+        typewrite("║   3. Search or filter data            ║")
+        typewrite("║   4.                                  ║")
+        typewrite("║   5.                                  ║")
+        typewrite("║   6. Exit                             ║")
+        typewrite("╚═══════════════════════════════════════╝")
         choice = input("Select an option (1-6): ").strip()
 
         if choice == '1':
@@ -49,10 +51,10 @@ def main_menu():
             search_data()
 
         elif choice == '4':
-            update_data_entry()
+            print('idk what to put here yet')
 
         elif choice == '5':
-            save_changes()
+            print('idk what to put here yet')
 
         elif choice == '6':
             print("Exiting program.")
