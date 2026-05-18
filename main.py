@@ -3,8 +3,8 @@ from data_module import (
     display_dataset_preview,
     display_visualisation,
     search_data,
-    update_data_entry,
-    save_changes
+    data_summary,
+    display_research_conclusion
 )
 
 
@@ -18,15 +18,14 @@ def typewrite(text):
 
 name = input('Hello user, please enter your name: ')
 
-typewrite("╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════╗")
-typewrite("║  Welcome " + name + " to English performance data                                                             ║")
-typewrite("║  Look through various datasets and visualisations to gain insights into the performance of English students.  ║")      
-typewrite("║  And how gaming impacts their performance.                                                                    ║")                                         
-typewrite("║                                                                                                               ║")
-typewrite("╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════╝")
+typewrite("╔══════════════════════════════════════════════════════════════╗")
+typewrite("║  Welcome " + name + " to English performance data            ║") 
+typewrite("║  Look through various datasets and visualisations.           ║")    
+typewrite("║  To gain insights into the performance of English students   ║")         
+typewrite("║  And how gaming impacts their performance.                   ║")                                           
+typewrite("╚══════════════════════════════════════════════════════════════╝")                                                                                   
 
 def main_menu():
-
     while True:
 
         typewrite("╔═══════════════════════════════════════╗")
@@ -35,8 +34,8 @@ def main_menu():
         typewrite("║   1. View dataset                     ║")
         typewrite("║   2. View visualisation               ║")
         typewrite("║   3. Search or filter data            ║")
-        typewrite("║   4.                                  ║")
-        typewrite("║   5.                                  ║")
+        typewrite("║   4. Data Summary                     ║")
+        typewrite("║   5. Research conclusion              ║")
         typewrite("║   6. Exit                             ║")
         typewrite("╚═══════════════════════════════════════╝")
         choice = input("Select an option (1-6): ").strip()
@@ -51,10 +50,10 @@ def main_menu():
             search_data()
 
         elif choice == '4':
-            print('idk what to put here yet')
+            data_summary()
 
         elif choice == '5':
-            print('idk what to put here yet')
+            display_research_conclusion()
 
         elif choice == '6':
             print("Exiting program.")

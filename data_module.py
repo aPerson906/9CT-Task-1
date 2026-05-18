@@ -12,14 +12,20 @@ dataset_df = pd.read_csv(
         'Perceived Impact on Grades'
     ]
 )
+import time
 
+def typewrite(text): 
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.015)
+    print()
 
 # =========================
 # DATA OVERVIEW
 # =========================
 def display_dataset_preview():
 
-    print("\n=== Student Survey: Gaming and English Performance ===")
+    typewrite("\n=== Student Survey: Gaming and English Performance ===")
     print(dataset_df)
 
 
@@ -28,7 +34,7 @@ def display_dataset_preview():
 # =========================
 def display_visualisation():
 
-    print("\n=== Research Analysis Menu ===")
+    typewrite("\n=== Research Analysis Menu ===")
     print("1. Distribution of Gaming Hours")
     print("2. English Improvement Trends")
     print("3. Perceived Impact on Academic Results")
@@ -37,7 +43,7 @@ def display_visualisation():
 
     choice = input("\nSelect analysis option (1-5): ")
 
-    # 1. gaming hours distribution
+    
     if choice == '1':
 
         data = dataset_df['Gaming Hours'].value_counts()
@@ -52,7 +58,7 @@ def display_visualisation():
         plt.show()
 
 
-    # 2. english improvement trends
+    #
     elif choice == '2':
 
         data = dataset_df['English Improvement'].value_counts()
@@ -66,7 +72,7 @@ def display_visualisation():
         plt.show()
 
 
-    # 3. perceived impact
+    
     elif choice == '3':
 
         data = dataset_df['Perceived Impact on Grades'].value_counts()
@@ -81,7 +87,7 @@ def display_visualisation():
         plt.show()
 
 
-    # 4. relationship analysis
+    
     elif choice == '4':
 
         cross = pd.crosstab(
@@ -99,7 +105,7 @@ def display_visualisation():
         plt.show()
 
 
-    # 5. deeper insight
+    
     elif choice == '5':
 
         impacted = dataset_df[
@@ -122,12 +128,10 @@ def display_visualisation():
         print("Invalid selection")
 
 
-# =========================
-# SEARCH DATA
-# =========================
 def search_data():
 
     keyword = input("Enter keyword to search dataset: ")
+    
 
     results = dataset_df[
         dataset_df.astype(str).apply(
@@ -136,10 +140,28 @@ def search_data():
         )
     ]
 
-    print("\n=== Search Results ===")
+    typewrite("\n=== Search Results ===")
 
     if results.empty:
         print("No matching responses found.")
     else:
         print(results)
 
+def data_summary():
+
+    print("\n=== Data Summary ===")
+    print(dataset_df.describe(include='all'))
+
+def display_research_conclusion():
+
+    typewrite("\n=== Research Conclusion ===")
+    print(" - Most participants who played games for 8+ hours reported either no improvement or that they performed slightly worse academically.")
+    print(" - Only a small number of students who played for 8+ hours reported significant improvement, suggesting very long gaming hours may negatively affect school performance for many students.")
+    print(" - Students who played for 1–2 hours were more likely to report slight or significant improvement compared to heavy gamers.")
+    print(" - Moderate gaming times (2–4 hours) showed mixed results, with some students improving and others performing worse.")
+    print(" - Very low gaming time (less than 1 hour) mostly resulted in slight improvement, although a few students still performed worse.")
+    print(" - The majority of responses across all groups showed only slight changes in performance rather than major improvements or declines.")
+    print(" - Students who answered “Yes” to being affected by gaming appeared more often in groups with higher gaming hours, suggesting heavy gaming may have a stronger impact on academic performance.")
+    print(" - Overall, the data suggests that excessive gaming is linked to lower academic improvement, while moderate or limited gaming may have less negative impact.")
+    print("\nHowever, this may be correlation and not causation, and other factors could influence both gaming habits and academic performance.")
+    print("Further research with larger sample sizes and controlled variables would be needed to draw stronger conclusions about the relationship between gaming and English performance.")
