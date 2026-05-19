@@ -19,7 +19,7 @@ def typewrite(text):
 name = input('Hello user, please enter your name: ')
 
 typewrite("╔══════════════════════════════════════════════════════════════╗")
-typewrite("║  Welcome " + name + " to English performance data            ║") 
+typewrite("║  Welcome " + name + " to English performance data                     ║") 
 typewrite("║  Look through various datasets and visualisations.           ║")    
 typewrite("║  To gain insights into the performance of English students   ║")         
 typewrite("║  And how gaming impacts their performance.                   ║")                                           

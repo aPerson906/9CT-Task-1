@@ -20,18 +20,16 @@ def typewrite(text):
         time.sleep(0.015)
     print()
 
-# =========================
+
 # DATA OVERVIEW
-# =========================
 def display_dataset_preview():
 
     typewrite("\n=== Student Survey: Gaming and English Performance ===")
     print(dataset_df)
 
 
-# =========================
+
 # ANALYSIS FUNCTIONS
-# =========================
 def display_visualisation():
 
     typewrite("\n=== Research Analysis Menu ===")
@@ -127,7 +125,7 @@ def display_visualisation():
     else:
         print("Invalid selection")
 
-
+#Search dataset for keywords
 def search_data():
 
     keyword = input("Enter keyword to search dataset: ")
@@ -147,11 +145,17 @@ def search_data():
     else:
         print(results)
 
+
+
+#Summary of dataset statistics
 def data_summary():
 
     print("\n=== Data Summary ===")
     print(dataset_df.describe(include='all'))
 
+
+
+#COnclusions based on data analysis
 def display_research_conclusion():
 
     typewrite("\n=== Research Conclusion ===")
