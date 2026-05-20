@@ -1,5 +1,6 @@
 
 from data_module import (
+    back,
     display_dataset_preview,
     display_visualisation,
     search_data,
@@ -19,7 +20,7 @@ def typewrite(text):
 name = input('Hello user, please enter your name: ')
 
 typewrite("╔══════════════════════════════════════════════════════════════╗")
-typewrite("║  Welcome " + name + " to English performance data                     ║") 
+typewrite("║  Welcome " + name + " to English impaction data              ║") 
 typewrite("║  Look through various datasets and visualisations.           ║")    
 typewrite("║  To gain insights into the performance of English students   ║")         
 typewrite("║  And how gaming impacts their performance.                   ║")                                           
@@ -42,19 +43,29 @@ def main_menu():
 
         if choice == '1':
             display_dataset_preview()
-
+            if not back():
+                break
+            print()
         elif choice == '2':
             display_visualisation()
-
+            if not back():
+                break
+            print()
         elif choice == '3':
             search_data()
-
+            if not back():
+                break
+            print()
         elif choice == '4':
             data_summary()
-
+            if not back():
+                break
+            print()
         elif choice == '5':
             display_research_conclusion()
-
+            if not back():
+                break
+            print()
         elif choice == '6':
             print("Exiting program.")
             break

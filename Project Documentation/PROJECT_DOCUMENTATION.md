@@ -4,7 +4,7 @@
 ## **Phase 1 - Identifying and Defining**
 
 ### *Mind map*
-![Computing Tech Mind Map](Documents/Computing Tech Mind Map.png)
+![Computing Tech Mind Map](mindmap.png)
 
 ### *Purpose* 
 Hypothesis
@@ -79,9 +79,19 @@ Survey Link:
  https://docs.google.com/spreadsheets/d/1s1HmXkDKfTVtlYArIlFzf7CWeCgT-Yivz8kXy46GtKA/edit?usp=sharing
 
 ### *Planning*
+Field|Datatype|Format for Display|Description|Example|Validation|
+|-|-|-|-|-|-|
+|Gaming Hours|str|X-X Hours or X+|Number of hours students spend gaming on average in a week|8 hours +|Must contain a valid gaming hour category and cannot be left blank.
+|English Improvement|str|XX...XX|Describes how the student believes their English performance has changed|I’ve slightly improved|Must match one of the survey response options.|
+|Perceived Impact on Grades|str|Yes/No|Indicates whether the student believes gaming has affected their academic grades.|Yes|Must only contain “Yes” or “No”.|
+
+
 ![Data Dictionary](Recent/Data Dictionary.png)
 
 ## **Phase 3 - Producing and Implementing**
+
+how to use the program
+
 ### *Python, Pandas, Matplotlib
 
 ### *User Interface*
