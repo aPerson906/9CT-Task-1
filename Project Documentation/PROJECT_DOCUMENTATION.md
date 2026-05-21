@@ -98,6 +98,8 @@ The survey results showed that students who spent excessive amounts of time gami
 
 ### *Peer Verification*
 
+Reviewer: Rachael Mackinnon
+
 Plus:
 Box design for the outer user Interface is very unique and visually appealing.
 Animated text is well paced in a way that offers some differentiation without making it long and draw out.
@@ -108,7 +110,6 @@ There are many graphs/charts/options that provide a range of things the user can
 Minus:
 Could add some other functions to improve you’re codes efficiency and convenience for the user.
 Could change charts in a visual way that will make it easier for the user to view the data.
-
 
 Implications:
 You could possibly add other functions like [Clear Screen] to clear the terminal and give your code a sleeker/cleaner look.
@@ -121,11 +122,7 @@ For Implication, you need to go deeper and evaluate the impact of what the plus 
 
 ### *Evaluate your project*
 
-Evaluate your system and results in relation to your Requirements Outline.
-Evaluate your system in relation to peer feedback.
-Evaluate your project in relation to project management.
-Evaluate your system in in relation to its data and security.
-Is the data valid, accurate and timely?
-Is it unbiased?
-Do we need to improve its security – if so, how?
-Could the UX be more accessible – if so, how?
+The system successfully achieved most of the functional and non-functional requirements outlined at the beginning of the project. Users were able to load and view the preloaded CSV dataset about gaming habits and academic performance using the dataset preview feature. The search function worked slightly well, allowing users to filter and explore information related to gaming hours, English improvement, and whether students believed gaming affected their grades, although has some minor bugs.
+The system analysed the relationship between gaming time and academic performance through graphs and comparison features such as “Gaming Hours vs English” and “Does Gaming Affect Grades.” These visualisations helped make trends and patterns in the survey data easier to understand and supported the hypothesis that excessive gaming may negatively affect academic improvement. The program also included research conclusions that summarised the results of the analysis. Error messages appeared when invalid menu options were entered, which improved reliability and reduced user confusion.
+Most of the non-functional requirements were also achieved. The interface was simple and easy to navigate because of the organised menu structure, clear labels, and readable formatting. The typewriter effect made the program feel more interactive and engaging while still remaining user-friendly. The code was separated into functions, which improved readability and made debugging and testing easier during development. The system was reliable because it consistently loaded and processed the dataset without crashing during normal use.
+There are still some areas that could be improved. Data security is limited because the dataset could potentially be edited directly without restrictions or backup protection. However, since the system is only designed for research and classroom use, this was not a major issue. Another limitation is that the survey data was self-reported, meaning some responses may not have been fully accurate or completely unbiased. Even with these limitations, the system successfully fulfilled its purpose as a research and analysis tool investigating the relationship between gaming habits and English performance.
