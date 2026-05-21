@@ -1,5 +1,5 @@
 
-from data_module import (
+from Data.data_module import (
     back,
     display_dataset_preview,
     display_visualisation,
