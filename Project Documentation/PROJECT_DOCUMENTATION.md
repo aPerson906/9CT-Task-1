@@ -86,11 +86,9 @@ Field|Datatype|Format for Display|Description|Example|Validation|
 |Perceived Impact on Grades|str|Yes/No|Indicates whether the student believes gaming has affected their academic grades.|Yes|Must only contain “Yes” or “No”.|
 
 
-![Data Dictionary](Recent/Data Dictionary.png)
-
 ## **Phase 3 - Producing and Implementing**
 
-how to use the program
+Read the README to find out how the program works.
 
 ### *Python, Pandas, Matplotlib
 
@@ -106,3 +104,12 @@ how to use the program
 
 ### *Evaluate your project*
 
+
+
+P
+
+
+M
+
+
+I

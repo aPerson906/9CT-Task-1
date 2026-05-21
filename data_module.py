@@ -8,7 +8,7 @@ def back():
         if choice == "yes":
             return True
         elif choice == "no":
-            print("Ok, try again.")
+            print("Ok, take your time")
             continue
 
 
@@ -52,8 +52,10 @@ def display_visualisation():
         data.plot(kind='bar', stacked=True)
         plt.title("Does Gaming Affect Grades")
         plt.xlabel("Gaming Hours")
+        plt.xticks(rotation=45)
         plt.ylabel("Students")
         plt.show()
+        
 
     elif choice == '2':
         heavy = dataset_df[
@@ -65,6 +67,7 @@ def display_visualisation():
         data.plot(kind='bar')
         plt.title("Heavy Gamers English Results (8+ hours)")
         plt.xlabel("English Result")
+        plt.xticks(rotation=20)
         plt.ylabel("Students")
         plt.show()
 
@@ -79,6 +82,7 @@ def display_visualisation():
         cross.plot(kind='bar', stacked=True)
         plt.title("Gaming Hours vs English")
         plt.xlabel("Gaming Hours")
+        plt.xticks(rotation=45)
         plt.ylabel("Students")
         plt.show()
 
@@ -98,6 +102,7 @@ def display_visualisation():
         game.plot(kind='bar')
         plt.title("Most Common Gaming Hours")
         plt.xlabel("Hours")
+        plt.xticks(rotation=45)
         plt.ylabel("Amount")
         plt.show()
     else:
@@ -129,8 +134,8 @@ def display_research_conclusion():
     print("- Students gaming for over 8 hours mostly had worse or no improvement.")
     print("- Students gaming 1-2 hours usually had slight improvement.")
     print("- 2-4 hour gamers had mixed results.")
-    print("- Heavy gaming seems to affect grades more.")
+    print("- Gaming for more than 8 hours seems to affect grades more.")
     print("- Most students only showed small changes in English.")
-    print("- Gaming could affect grades but other things may also matter.")
-    print("- More research would be needed for a better answer.")
+    print("- There is a correlation with grades affecting gaming but this does not mean there is causation.")
+    print("- For a more clear answer a bigger survey group would be needed, to find the impaction of gaming on English grades.")
 
