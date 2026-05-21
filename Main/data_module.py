@@ -26,7 +26,7 @@ def display_dataset_preview():
     print(dataset_df)
 
 dataset_df = pd.read_csv(
-    'Data/English improvements.csv',
+    '../Data/English improvements.csv',
     header=None,
     names=['Gaming Hours', 'English Improvement', 'Perceived Impact on Grades']
 )
@@ -110,6 +110,8 @@ def display_visualisation():
 
 def search_data():
     print()
+    print('Use key words to search through the dataset, this will return any row that contains the keyword in any column.')
+    print("Use key words such as slightly improve, hours or numbers such as 8, or 1-2.  ")
     keyword = input("Search word: ")
     results = dataset_df[
         dataset_df.astype(str).apply(
