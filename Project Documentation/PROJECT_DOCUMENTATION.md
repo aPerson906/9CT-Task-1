@@ -100,6 +100,23 @@ Read the README to find out how the program works.
 The survey results showed that students who spent excessive amounts of time gaming were more likely to experience lower English improvement results. Students who gamed for 8 or more hours often reported responses such as “I have not improved” or “I performed slightly worse,” while students who gamed for fewer hours more commonly reported slight or significant improvement in their English marks. This suggests that high gaming hours may negatively influence academic performance because students may spend less time studying or focusing on schoolwork. For example, several students in the “8 hours +” category stated that gaming affected their grades and also reported little or no academic improvement, while many students in the “1–4 hours” categories reported positive improvement in English. These findings support the hypothesis that excessive gaming can negatively impact English performance, although the data also showed that moderate gaming does not always lead to poor academic grades,suggesting that other factors such as study habits,time management,and personal discipline may also influence student performance. This suggests that there is a correlation between gaming hours and English performance, but the data does not directly prove any causation that gaming affected the academic results of GHS students.
 
 ### *Peer Verification*
+
+Plus:
+Box design for the outer user Interface is very unique and visually appealing.
+Animated text is well paced in a way that offers some differentiation without making it long and draw out.
+Program itself is quite organised in a way that the user can mostly understand how to make their way around the system.
+Charts usually show text seperate from the plt on the actual terminal, allowing comparison of raw data to visualisation.
+There are many graphs/charts/options that provide a range of things the user can interact with and extract data from.
+
+Minus:
+Could add some other functions to improve you’re codes efficiency and convenience for the user.
+Could change charts in a visual way that will make it easier for the user to view the data.
+Search engine feature is incredibly confusing, with no specific guideline or options to know HOW to search for data.
+
+Implications:
+You could possibly add other functions like [Clear Screen] to clear the terminal and give your code a  sleeker/cleaner look.
+For the search engine, a prior line of text that explains how to use the search engine would be much more convenient for the user in order to better understand the function
+
 Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
 For Plus, outline any positive aspects / what works.
 For Minus, outline any negative aspects / what does not work.
