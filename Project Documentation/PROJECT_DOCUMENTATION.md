@@ -4,7 +4,7 @@
 ## **Phase 1 - Identifying and Defining**
 
 ### *Mind map*
-![Computing Tech Mind Map](mindmap.png)
+![Computing Tech Mind Map](Images/mindmap.png)
 
 ### *Purpose* 
 Hypothesis
@@ -96,20 +96,21 @@ Read the README to find out how the program works.
 
 ## **Phase 4 - Testing and Evaluating**
 
-### *Test your analysis* 
-
-### *Analyze and conclude*
+### *Analyse and conclude*
+The survey results showed that students who spent excessive amounts of time gaming were more likely to experience lower English improvement results. Students who gamed for 8 or more hours often reported responses such as “I have not improved” or “I performed slightly worse,” while students who gamed for fewer hours more commonly reported slight or significant improvement in their English marks. This suggests that high gaming hours may negatively influence academic performance because students may spend less time studying or focusing on schoolwork. For example, several students in the “8 hours +” category stated that gaming affected their grades and also reported little or no academic improvement, while many students in the “1–4 hours” categories reported positive improvement in English. These findings support the hypothesis that excessive gaming can negatively impact English performance, although the data also showed that moderate gaming does not always lead to poor academic grades,suggesting that other factors such as study habits,time management,and personal discipline may also influence student performance. This suggests that there is a correlation between gaming hours and English performance, but the data does not directly prove any causation that gaming affected the academic results of GHS students.
 
 ### *Peer Verification*
+Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
+For Plus, outline any positive aspects / what works.
+For Minus, outline any negative aspects / what does not work.
+For Implication, you need to go deeper and evaluate the impact of what the plus and minuses mean for the project (i.e. make a judgement and determine what action is needed, or what the impact of the plus and minus is).
 
 ### *Evaluate your project*
-
-
-
-P
-
-
-M
-
-
-I
+Evaluate your system and results in relation to your Requirements Outline.
+Evaluate your system in relation to peer feedback.
+Evaluate your project in relation to project management.
+Evaluate your system in in relation to its data and security. 
+Is the data valid, accurate and timely? 
+Is it unbiased? 
+Do we need to improve its security – if so, how? 
+Could the UX be more accessible – if so, how?
