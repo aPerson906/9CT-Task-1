@@ -34,7 +34,7 @@ def main_menu():
         typewrite("║                                       ║")
         typewrite("║   1. View dataset                     ║")
         typewrite("║   2. View visualisation               ║")
-        typewrite("║   3. Search or filter data            ║")
+        typewrite("║   3. Search/filter data               ║")
         typewrite("║   4. Data Summary                     ║")
         typewrite("║   5. Research conclusion              ║")
         typewrite("║   6. Exit                             ║")

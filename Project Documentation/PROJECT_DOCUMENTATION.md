@@ -86,10 +86,6 @@ Perceived Impact on Grades|str|Yes/No|Indicates whether the student believes gam
 
 Read the README to find out how the program works.
 
-### *Python, Pandas, Matplotlib
-
-### *User Interface*
-
 ## **Phase 4 - Testing and Evaluating**
 
 ### *Analyse and conclude*
@@ -99,26 +95,13 @@ The survey results showed that students who spent excessive amounts of time gami
 ### *Peer Verification*
 
 Reviewer: Rachael Mackinnon
-
-Plus:
-Box design for the outer user Interface is very unique and visually appealing.
-Animated text is well paced in a way that offers some differentiation without making it long and draw out.
-Program itself is quite organised in a way that the user can mostly understand how to make their way around the system.
-Charts usually show text seperate from the plt on the actual terminal, allowing comparison of raw data to visualisation.
-There are many graphs/charts/options that provide a range of things the user can interact with and extract data from.
-
-Minus:
-Could add some other functions to improve you’re codes efficiency and convenience for the user.
-Could change charts in a visual way that will make it easier for the user to view the data.
-
-Implications:
-You could possibly add other functions like [Clear Screen] to clear the terminal and give your code a sleeker/cleaner look.
-For the search engine, a prior line of text that explains how to use the search engine would be much more convenient for the user in order to better understand the function
-
-Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
-For Plus, outline any positive aspects / what works.
-For Minus, outline any negative aspects / what does not work.
-For Implication, you need to go deeper and evaluate the impact of what the plus and minuses mean for the project (i.e. make a judgement and determine what action is needed, or what the impact of the plus and minus is).
+|Plus|Minus|Implications|
+|-|-|-|
+|Box design for the outer user Interface is very unique and visually appealing|Data is inconclusive and information cannot be drawn from the raw dataset (CSV → Option 1)|In regard to the actual data correlation to the hypothesis and information provided, you could possibly change your data to instead prove impact instead of improvement|
+|Animated text is well paced in a way that offers some differentiation without making it long and draw out|Could add some other functions to improve you’re codes efficiency and convenience for the user|You could possibly add other functions like [Clear Screen] to clear the terminal and give your code a sleeker/cleaner look|
+|Program itself is quite organised in a way that the user can mostly understand how to make their way around the system|Does not account for the difference in systems for OS and Mac, causing errors in different devices|For the search engine, a prior line of text that explains how to use the search engine would be much more convenient for the user in order to better understand the function|
+|Charts usually show text seperate from the plt on the actual terminal, allowing comparison of raw data to visualisation|Search engine feature is incredibly confusing, with no specific guideline or options to know HOW to search for data.||
+|There are many graphs/charts/options that provide a range of things the user can interact with and extract data from|||
 
 ### *Evaluate your project*
 

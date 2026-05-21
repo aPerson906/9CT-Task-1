@@ -26,7 +26,7 @@ def display_dataset_preview():
     print(dataset_df)
 
 dataset_df = pd.read_csv(
-    '../Data/English improvements.csv',
+    'Main/Data/English_improvements.csv',
     header=None,
     names=['Gaming Hours', 'English Improvement', 'Perceived Impact on Grades']
 )
